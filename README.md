@@ -21,7 +21,7 @@ Execute the C Program for the desired output.
 # PROGRAM:
 
 ## C program that receives a message from message queue and display them
-
+```c
 // writer process
 #include <stdio.h> 
 #include <sys/ipc.h> 
@@ -82,7 +82,7 @@ int main()
 	msgctl(msgid, IPC_RMID, NULL);
 	return 0;
 }
-
+```
 
 ## OUTPUT
 
